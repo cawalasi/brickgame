@@ -66,7 +66,7 @@ while running:
         paddle.move_left(5)
     
     
-    #Making sure
+    #Making sure ball bounces off sides of screen
     if ball.rect.x >= 790 :
         ball.velocity[0] = -ball.velocity[0]
     if ball.rect.x <= 0:
